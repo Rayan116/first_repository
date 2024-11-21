@@ -32,5 +32,6 @@ public class ControllerPatient {
     @DeleteMapping("delete_patient/{email}")
     public void deletePatient(@PathVariable("email") String email) {
         servicePatient.deletePatient(email);
+        // для гита
     }
 }
